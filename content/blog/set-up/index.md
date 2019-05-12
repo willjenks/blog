@@ -1,6 +1,7 @@
 ---
 title: "Hello World, Hello Gatsby"
 date: "2019-05-12"
+description: "How to set up a new blog using Gatbsby and Netlify."
 ---
 
 # So I decided I needed a blog...
