@@ -38,7 +38,7 @@ function Bio() {
               }}
             />
             <p>
-              Hello there. I'm a software developer and Founder from Brighton, on the south coast of the UK. I'm working a lot with React at the moment, but have many years experience with other flavours of JavaScript, as well as C#, SQL Server and all that jazz. This blog is a place to put stuff I've learned that I hope others might find useful.
+              Hello! I'm a software developer and Founder from Brighton, on the south coast of the UK. I'm working a lot with React at the moment, but have many years experience with other flavours of JavaScript, as well as C#, SQL Server and all that jazz. This blog is a place to put stuff I've learned that I hope others might find useful.
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
                 I'm here on twitter
