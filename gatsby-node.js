@@ -5,7 +5,7 @@ exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
 
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
-  return graphql(
+  const main = graphql(
     `
       {
         allMarkdownRemark(
@@ -50,6 +50,12 @@ exports.createPages = ({ graphql, actions }) => {
 
     return null
   })
+
+  const images = new Promise((resolve,reject)=>{
+    resolve();
+  })
+  
+  return Promise.all([main])
 }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
